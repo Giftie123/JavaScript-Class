@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Zyra Itungo",
+        "age": 2,
+        "quantity": 100,
+        "type": "broiler"
+    },
+    {
+        "name": "Buck Ndya",
+        "age": 20,
+        "quantity": 23,
+        "type": "layers"
+    },
+    {
+        "name": "Ollo Gif",
+        "age": 27,
+        "quantity": 50,
+        "type": "broiler"
+    },
+    {
+        "name": "karl kai",
+        "age": 29,
+        "quantity": 75,
+        "type": "layer"
+    }
+]

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+
+<body>
+    <h2>YOUNG4CHICK REQUEST FORM</h2>
+
+    <form action="" id="form1">
+        <div class="mb-3">
+            <label for=" farmername">Farmer Name:</label>
+            <input type="text" id="farmerName">
+
+        </div>
+
+        <div class="mb-3">
+            <label for="farmer age">Farmer Age:</label>
+            <input type="number" id="age" placeholder="20-30 years">
+
+        </div>
+
+        <div class="mb-3">
+            <label for="numberofchicks">Number of chicks</label>
+            <input type="number" id="quantity" placeholder="number of chicks 100 - 500">
+
+
+        </div>
+
+        <div class="mb-3">
+            
+        </div>
+        <div class="mb-3">
+            <label for="chickType">Select chick type:</label>       
+        <select name="number of chicks" id="chickType">
+            <option value="">select chick type</option>
+            <option value="broiler">Broiler</option>
+            <option value="layer">Layer</option>
+        </select>
+        </div>
+   
+        <button type="submit">Submit Request</button>
+        <p id="errorMsg" class="error"></p>
+
+    </form>
+    
+
+    <form action="" id="form2">
+
+    </form>
+
+    <form action="" id="form3">
+
+    </form>
+
+
+    <h2>ADMIN DASHBOARD</h2>
+    <table class="table" id="requestTable">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Age</th>
+      <th scope="col">Chick type</th>
+      <th scope="col">Quantity</th>
+    </tr>
+  </thead>
+  <tbody>
+   
+  </tbody>
+<!-- </table>
+    <table id="tb1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Nationality</th>
+        </tr>
+
+    </table> -->
+
+    <!-- <script>
+        //code for forms
+        console.log(document.forms[0].id);
+        const firstForm = document.getElementById('form1');
+        //code for tables
+        const table = document.getElementById("tb1");
+        let newRow = table.insertRow();
+        let cell1 = newRow.insertCell(0);
+        let cell2 = newRow.insertCell(1);
+        let cell3 = newRow.insertCell(2);
+        let cell4 = newRow.insertCell(3);
+        cell1.textContent = "Gift";
+        cell2.textContent = "28";
+        cell3.textContent = "Female";
+        cell4.textContent = "Ugandan";
+
+    </script> -->
+    <script src="formsandtablehandling.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

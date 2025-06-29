@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+   
+
+    <!-- <h1 class="title" id=" heading one">My first heading</h1>
+    <h1 class="title" id="heading two"> My Second heading</h1>
+    <h1 class="title" id="heading three">My third heading</h1> -->
+    <h1> events</h1>>
+
+
+    <!-- <button id="submitButton">submit request</button>
+    <script>
+        const button = document.getElementById("submitButton")
+        function handleSubmit(){
+            alert("your chick request has been submitted")
+        }
+        // element.addEventListener (eventType, handlerFunction)
+
+        button.addEventListener("click", handleSubmit )
+    </script> -->
+
+    <button id="submitButton">Submit Request</button>
+    <button onclick="alert ('button clicked')" >on click</button>
+    <form action="" id="myForm">
+        <label for ="username">Enter username</label>
+        <input type ="text" id="username" name="username">
+        <input type ="submit">
+    </form>
+
+    <script>
+        const form = document.getElementById('myForm')
+        form.addEventListener('submit', function(event){
+            event.preventDefault
+            console.log(`automatic form submission blocked`)
+        })
+
+
+
+        document.getElementById('submitButton').onclick = fucntion(){
+            alert("button clicked")
+        }
+    </script>
+
+    <script src="events.js"></script>
+
+
+
+   <!--<script src="dom.js">
+     
+   </script>
+
+   <script>
+    let subHeading;
+    for(let i = 0; i<10; i++){
+    let subHeading = document.createElement("h2");
+    subHeading.className = "heading-2";
+    subHeading.id = "hood";
+    subHeading.textContent = "This is a sub heading"
+    subHeading.style.fontSize = "10px";
+    subHeading.style.color = "blue";
+    document.body.appendChild(subHeading);
+    }
+   </script>
+  
+</body>
+</html>
